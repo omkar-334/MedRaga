@@ -66,3 +66,7 @@ Do not use `--reload` tag, since the API contains `async` functions. API will br
   
 **Functionality** - Returns 200 OK if API is up  
   
+![Ratings Comparison](https://github.com/omkar-334/MedRaga-API/blob/main/ratings.png)  
+
+![Response Text Comparison](https://github.com/omkar-334/MedRaga-API/blob/main/reponse_text.png)  
+    
