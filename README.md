@@ -27,13 +27,15 @@ pip install -r requirements.txt
 5. Download and run Qdrant  
 First, download the latest Qdrant image from Dockerhub:  
 `docker pull qdrant/qdrant`  
-Then, run the service:  
-`docker run -p 6333:6333 -p 6334:6334 \`  
-`    -v $(pwd)/qdrant_storage:/qdrant/storage:z \`  
-`    qdrant/qdrant`  
+Then, run the service:
+```
+docker run -p 6333:6333 -p 6334:6334 \
+    -v $(pwd)/qdrant_storage:/qdrant/storage:z \
+    qdrant/qdrant
+```
 Qdrant is now accessible at `localhost:6333`  
 
-6. Start API
+7. Start API
   
 ```python  
 uvicorn app:app 
