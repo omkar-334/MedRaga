@@ -24,9 +24,9 @@ python -m venv .venv
 pip install -r requirements.txt  
 ```
 
-5. Download and run Qdrant
-   For Windows, run these commands from WSL.
-First, download the latest Qdrant image from Dockerhub:  
+5. Download and run Qdrant  
+   For Windows, run these commands from WSL.  
+First, download the latest Qdrant image from Dockerhub:   
 ```
 docker pull qdrant/qdrant
 ``` 
