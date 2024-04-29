@@ -33,21 +33,21 @@ Do not use `--reload` tag, since the API contains `async` functions. API will br
 ### Project Details  
   
 **Language Used** - Python 3.9.13  
-**API Framework** - FastAPI   
+**API Framework** - FastAPI    
   
 ### API Endpoints  
   
 ##### /create/req=<json>  
   
-**\<json\>** - Enter patient json here
-**Functionality** - Creating a new patient bucket
+**\<json\>** - Enter patient json here  
+**Functionality** - Creating a new patient bucket  
   
 ##### /query/req=<json>
   
-**\json\>** - JSON must contain `id` and `prompt`
-**Functionality** - Queries the RAG pipeline 
+**\<json\>** - JSON must contain `id` and `prompt`  
+**Functionality** - Queries the RAG pipeline   
 
 ##### /status
   
-**Functionality** - Returns 200 OK if API is up
+**Functionality** - Returns 200 OK if API is up  
   
