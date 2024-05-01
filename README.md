@@ -18,10 +18,11 @@ python -m venv .venv
 .venv\Scripts\activate  
 ```  
   
-4. Install required libraries.  
+4. Install required libraries and install playwright.  
   
 ```python  
-pip install -r requirements.txt  
+pip install -r requirements.txt
+playwright install
 ```
 
 5. Download and run Qdrant  
@@ -38,7 +39,12 @@ docker run -p 6333:6333 -p 6334:6334 \
 ```
 Qdrant is now accessible at `localhost:6333`  
 
-7. Start API
+6. Check path locations.
+
+For Windows - paths are defined by `\\`  
+For Mac OS - paths are defined by `/`  
+
+7. Start API  
   
 ```python  
 uvicorn app:app 
