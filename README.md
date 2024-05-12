@@ -39,12 +39,14 @@ docker run -p 6333:6333 -p 6334:6334 \
 ```
 Qdrant is now accessible at `localhost:6333`  
 
-6. Check path locations.
+6. Add API Keys to `.env`
+
+7. Check path locations.
 
 For Windows - paths are defined by `\\`  
 For Mac OS - paths are defined by `/`  
 
-7. Start API  
+8. Start API  
   
 ```python  
 uvicorn app:app 
