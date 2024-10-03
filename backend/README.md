@@ -1,4 +1,4 @@
-### Set up project  
+### Set up backend
   
 1. Clone the repository or download as zip and extract it.  
   
@@ -73,8 +73,3 @@ Do not use `--reload` tag, since the API contains `async` functions. API will br
 ##### /status
   
 **Functionality** - Returns 200 OK if API is up  
-  
-![Ratings Comparison](https://github.com/omkar-334/MedRaga-API/blob/main/ratings.png)  
-
-![Response Text Comparison](https://github.com/omkar-334/MedRaga-API/blob/main/reponse_text.png)  
-    
