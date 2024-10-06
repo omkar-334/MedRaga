@@ -5,7 +5,7 @@ MedRaga - AI Enhanced Diagnostic & Treatment Planning System
 
 This project utilizes Retrieval-Augmented Generation (RAG) to enhance the quality and relevance of medical information provided to doctors. It combines retrieval-based and generation-based models to offer personalized diagnoses and treatment plans based on the doctor's query and the patient's medical history.
 
-![Home](https://raw.githubusercontent.com/omkar-334/MedRaga/main/assets/image0.png)
+![Home](assets/image0.png)
 
 ### Features
 
@@ -17,7 +17,7 @@ This project utilizes Retrieval-Augmented Generation (RAG) to enhance the qualit
 
 4.  **Trusted Information Sources**: Collects data only from reputable medical journals and websites, ensuring the reliability of the recommendations.
   
-![Query 1](https://raw.githubusercontent.com/omkar-334/MedRaga/main/assets/image1.png)
+![Query 1](assets/image1.png)
 
 ### Abstract
 
@@ -25,7 +25,7 @@ The project obtains the latest medical research from trusted sources using APIs 
 
 When a doctor queries the prototype, it retrieves the most relevant information and adds it to the context window of the Language Model (LLM). The LLM then takes the new context window, the original prompt, and the summarized patient history to generate the output.
 
-![Query 2](https://raw.githubusercontent.com/omkar-334/MedRaga/main/assets/image2.png)
+![Query 2](assets/image2.png)
 
 
 ### Usage
@@ -50,9 +50,9 @@ When a doctor queries the prototype, it retrieves the most relevant information 
 ### Comaprison with an existing Solution
 Using Claude and ChatGPT as judges, we had randomized solution order in the prompt and asked it to compare on the basis of overall accuracy and response text.
 
-![Ratings Comparison](https://raw.githubusercontent.com/omkar-334/MedRaga/main/assets/ratings.png)  
+![Ratings Comparison](assets/ratings.png)  
 
-![Response Text Comparison](https://raw.githubusercontent.com/omkar-334/MedRaga/main/assets/reponse_text.png)  
+![Response Text Comparison](assets/reponse_text.png)  
     
 
     
